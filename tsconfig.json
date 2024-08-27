@@ -6,6 +6,8 @@
     "jsx": "react",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "es6"],
+    "types": ["jest", "@testing-library/jest-dom"]
   },
   "include": ["./src/**/*"]
 }
