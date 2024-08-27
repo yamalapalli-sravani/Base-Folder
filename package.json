@@ -7,7 +7,7 @@
     "stage": "env-cmd -f .env.staging parcel index.html",
     "production": "env-cmd -f .env.production parcel index.html",
     "build": "env-cmd -f .env.production parcel build index.html",
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "author": "",
   "license": "ISC",
